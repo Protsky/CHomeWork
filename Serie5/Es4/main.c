@@ -3,7 +3,6 @@
 #include <string.h>
 
 
-
 typedef struct Byte
 {
     unsigned char bit0:1;
@@ -117,8 +116,6 @@ void printDeciaml(Byte a){
     Register b = createRegister(a);
     printf("The value after conversion of the 8 bit unsigned char is : %d", b.val);
 }
-
-
 
 int main(int argc, char *argv[]){
     printBits(22);
